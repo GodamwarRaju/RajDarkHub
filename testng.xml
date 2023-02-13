@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="org.tditsolutions.qa.listeners.ExtentReportListener"></listener>
+        <listener class-name="org.tditsolutions.qa.listeners.TestNGListeners"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="E:/tditFrame">
+        <!-- <parameter name="EnvName" value="UAT"></parameter> -->
+        <classes>
+            <class name="org.tditsolutions.qa.tests.LoginPageTest"/>
+            <!-- <class name="org.tditsolutions.qa.tests.HomePageTest"/>
+            <class name="org.tditsolutions.qa.tests.AddAccountTest"/> -->
+
+
+        </classes>
+    </test>
+</suite>

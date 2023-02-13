@@ -1,0 +1,5 @@
+org\tditsolutions\qa\tests\AddAccountTest.class
+org\tditsolutions\qa\tests\HomePageTest.class
+org\tditsolutions\qa\tests\LoginPageTest.class
+org\tditsolutions\qa\testbase\TestBase.class
+org\tditsolutions\qa\dataprovider\DataProviderClass.class
